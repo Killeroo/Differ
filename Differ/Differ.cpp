@@ -16,6 +16,7 @@ void PrintUsage()
 }
 
 // TODO: implement adler32 instead
+// TODO: Remove SHA256 code and references
 ////////////////////////////////////////////////////////////////////////////
 void sha256_hash_string(unsigned char hash[SHA256_DIGEST_LENGTH], char outputBuffer[65])
 {
